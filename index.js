@@ -124,11 +124,11 @@ console.log(`Car Two: ${car2.name}, Year: ${car2.year}`)
 
 
 
-//Looping through a Set in ES6
-// const colors = new Set(['red', 'orange', 'yellow', 'green', 'blue', 'violet', 'brown', 'black']);
-// for (const color of colors) {
-//   console.log(color);
-// }
+Looping through a Set in ES6
+const colors = new Set(['red', 'orange', 'yellow', 'green', 'blue', 'violet', 'brown', 'black']);
+for (const color of colors) {
+  console.log(color);
+}
 
 
 
@@ -161,9 +161,8 @@ console.log(`Car Two: ${car2.name}, Year: ${car2.year}`)
 // employees.clear()
 // console.log(employees)
 
-const members = new Map()
-members.set("Evelyn", 23.5);
-members.set("Anna", 20.8);
-members.set("George", 34.2);
-console.log(members.get("George"))
-
+// const members = new Map()
+// members.set("Evelyn", 23.5);
+// members.set("Anna", 20.8);
+// members.set("George", 34.2);
+// console.log(members.get("George"))
