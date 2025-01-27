@@ -124,7 +124,7 @@ console.log(`Car Two: ${car2.name}, Year: ${car2.year}`)
 
 
 
-Looping through a Set in ES6
+// Looping through a Set in ES6
 const colors = new Set(['red', 'orange', 'yellow', 'green', 'blue', 'violet', 'brown', 'black']);
 for (const color of colors) {
   console.log(color);
